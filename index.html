@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body><div>
+<p><b>TIP CALCULATOR</b></p></div>
+<section id="section">
+
+<div class="div">
+
+<form class="form">
+<label> How much was your bill?</label><br><br>
+<label>$</label><input  type="text" placeholder="Bill Amount" id="bill"><br><br>
+<label>How was your service?</label><br><br>
+<select style="font-size:140%; font-weight:20%;" id="service">
+<option >--Choose an Option--</option>
+<option>30% - Outstanding</option>
+<option>20% - Good </option>
+<option>15% - It Was Ok</option>
+<option>10% - Bad</option>
+<option>5% - Terrible</option>
+</select><br><br>
+<label> How many people sharing the bill?</label><br><br>
+<input   id="people" type="text" placeholder="Number of People"><label>people</label><br><br>
+<button class="button" id="button" type="submit" onClick="calculation()"><b>CALCULATE!</b></button>
+<h1 id="answer"></h1>
+</form>
+</div>
+</section>
+<script src="javaScript.js"></script>
+
+</body>
+</html>

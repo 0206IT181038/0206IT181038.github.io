@@ -1,0 +1,38 @@
+body
+{
+	background:url(project4image.jpg) no-repeat;
+	height:100%;
+	width:100%;
+background-size:cover;
+position:relative;
+    }
+body p{
+	color :white;
+	text-align:center;
+	padding-top:50px;
+}
+	
+	
+.div{
+
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background-color:white;
+	width:25%;
+	padding-left:30px;
+	padding-top:30px;
+	height:70%;
+	border-radius:0rem 0rem 2rem 2rem;
+	font-size:20px;
+}	
+.button{
+	background-color:#e20c0c;
+	width:50%;
+	height:40px;
+	margin-left:20%;
+	color:white ;
+	font:50px;
+	
+}
